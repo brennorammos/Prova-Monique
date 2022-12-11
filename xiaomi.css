@@ -1,0 +1,92 @@
+
+    .container{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        height: calc(100 vh -85px);
+        gap: 70px;
+    }
+
+
+   .left-side{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   }
+   .itens{
+    align-items:flex-end;
+   }
+.select-imagem{
+    max-width: 500px;
+}
+.select-imagem img{
+    width: 100%;
+}
+.imagens{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 500px;
+    gap: 10px;
+}
+.xiaomi img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.content{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.right-side{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side h1{
+    color:#b22222 ;
+    font-size: 34px;
+}
+ .texto p{
+    color: #fff;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+   
+}
+
+.valor{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+ .descricao h2{
+    padding: 10px;
+    color:red ;
+    font-size: 30px;
+    text-align: center;
+}
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color:#800404 ;
+    padding: 10px 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+  
+
+
+
